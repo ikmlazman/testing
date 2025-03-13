@@ -1,0 +1,39 @@
+style.css
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #f4a261;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero {
+    height: 400px;
+    background: url('../images/harley.jpg') no-repeat center center/cover;
+}
+
+.product {
+    border: 1px solid #f4a261;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
